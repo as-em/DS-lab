@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+
+// Find 1 to  n th fibo number using recur func
+
 int fibonacci(int n) {
     if (n <= 1)
         return n;
