@@ -31,8 +31,20 @@ int main()
                 idx = i;
             }
         }
+        if (idx != -1)
+        {
+            break;
+        }
     }
-    cout << idx + 1;
+
+    if (idx == -1)
+    {
+        cout << " not found ";
+    }
+    else
+    {
+        cout << idx + 1;
+    }
 
     return 0;
 }
