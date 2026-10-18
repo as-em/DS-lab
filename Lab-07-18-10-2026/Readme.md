@@ -1,2 +1,1 @@
-1. Insertion
-2. deletion
+1. Insertion & deletion
